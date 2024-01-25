@@ -20,7 +20,7 @@ export default function Header() {
             <li>My content</li>
           </ul>
         </nav>
-        <div className="flex font-Poppins text-base font-normal text-at-primary-blue gap-24">
+        <div className="flex font-Poppins text-base my-2.5 font-normal text-at-primary-blue gap-24">
           <button>Log in</button>
           <button className="py-2.5 px-5 border bg-at-white-50 rounded-10 border-at-white-100 shadow-dropShadow  ">
             Sign up
