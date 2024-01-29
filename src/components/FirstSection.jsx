@@ -20,8 +20,8 @@ const FirstSection = () => {
           </span>
           <span className="inline sm:hidden">.</span>
         </p>
-        <button className="max-w-195 mx-2 mt-6 sm:mt-12  h-16 bg-at-gray-500 border-4 border-at-gray-200 rounded-12">
-          <span className="w-187  text-at-white-50 font-Poppins text-base font-medium text-center block ">
+        <button className="w-132 sm:w-195 mt-6 sm:mt-12  h-50 sm:h-16 bg-at-gray-500 border-4 border-at-gray-200 rounded-12">
+          <span className="w-124 sm:w-187  text-at-white-50 font-Poppins text-xs sm:text-base font-medium text-center block ">
             Start Training
           </span>
         </button>
