@@ -1,11 +1,15 @@
 import Header from "./Header.jsx";
-import Firstsection from "./Firstsection.jsx";
+import FirstSection from "./FirstSection.jsx";
+import SecondSection from "./SecondSection.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      <Firstsection />
+      <main>
+        <FirstSection />
+        <SecondSection />
+      </main>
     </>
   );
 }

@@ -29,8 +29,9 @@ export default {
         356: "356px",
         552: "552px",
         584: "584px",
-        749: "749px",
         607: "607px",
+        749: "749px",
+        1024: "1024px",
         1440: "1440px",
       },
       colors: {
@@ -46,6 +47,7 @@ export default {
       },
       blur: {
         "5xl": "200px",
+        100: "100px",
       },
       backgroundImage: {
         "h1-gradient":
