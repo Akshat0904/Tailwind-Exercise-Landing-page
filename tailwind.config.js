@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       spacing: {
+        2: "2px",
         10: "10px",
+        11: "11px",
         20: "20px",
         17: "17px",
         19: "19px",
@@ -37,6 +39,7 @@ export default {
         221: "221px",
         250: "250px",
         253: "253px",
+        266: "266px",
         284: "284px",
         310: "310px",
         323: "323px",
@@ -57,6 +60,7 @@ export default {
         736: "736px",
         749: "749px",
         1024: "1024px",
+        1160: "1160px",
         1440: "1440px",
       },
       colors: {
@@ -100,6 +104,8 @@ export default {
         " 0px 5px 11px 0px rgba(0, 0, 0, 0.10), 0px 20px 20px 0px rgba(0, 0, 0, 0.09), 0px 46px 28px 0px rgba(0, 0, 0, 0.05), 0px 82px 33px 0px rgba(0, 0, 0, 0.01), 0px 128px 36px 0px rgba(0, 0, 0, 0.00)",
       "white-full-shadow":
         " 0px 37px 80px 0px rgba(0, 0, 0, 0.10), 0px 146px 146px 0px rgba(0, 0, 0, 0.09), 0px 329px 198px 0px rgba(0, 0, 0, 0.05), 0px 585px 234px 0px rgba(0, 0, 0, 0.01), 0px 915px 256px 0px rgba(0, 0, 0, 0.00)",
+      "white-card-shadow":
+        "0px 14px 30px 0px rgba(0, 0, 0, 0.05), 0px 54px 54px 0px rgba(0, 0, 0, 0.04), 0px 122px 73px 0px rgba(0, 0, 0, 0.03), 0px 217px 87px 0px rgba(0, 0, 0, 0.01), 0px 339px 95px 0px rgba(0, 0, 0, 0.00)",
     },
 
     borderRadius: {
@@ -118,6 +124,7 @@ export default {
     lineHeight: {
       32: "32px",
       36: "36px",
+      40: "40px",
       52: "52px",
       64: "64px",
     },

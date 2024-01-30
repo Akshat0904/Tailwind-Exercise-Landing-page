@@ -44,7 +44,11 @@ const SecondSection = () => {
           <img src={HORIZONTAL_PORTRAIT_6} alt="Horizontal Portrait 6" />
         </div>
         <div className="flex max-w-358 md:max-w-686">
-          <img className="size-40 md:size-85 -rotate-20" src={SPARKLE} alt="" />
+          <img
+            className="size-40 md:size-85 -rotate-20"
+            src={SPARKLE}
+            alt="Sparkle star"
+          />
           <h3 className=" max-w-325 md:max-w-494 font-Poppins mt-7 -ml-6 md:ml-0 md:mt-40 text-[28px] md:text-[45px] text-at-gray-300 leading-36  md:leading-52 font-medium text-center ">
             Start training with the{" "}
             <span className="bg-h3-gradient bg-clip-text text-transparent">
@@ -55,7 +59,7 @@ const SecondSection = () => {
           <img
             className="size-40 md:size-85 -ml-8 md:-ml-22 mt-69"
             src={SPARKLE}
-            alt=""
+            alt="Sparkle star"
           />
         </div>
         <div className="flex md:mb-75 p-4 md:p-0 flex-col items-center justify-center">
