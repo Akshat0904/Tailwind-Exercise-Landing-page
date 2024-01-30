@@ -1,6 +1,6 @@
 const FirstSection = () => {
   return (
-    <div className="relative  max-w-1440 xl:mx-auto pt-19 pb-7 md:pt-44 md:pb-44 border-b border-at-primary-blue ">
+    <section className="relative  max-w-1440 xl:mx-auto pt-19 pb-7 md:pt-44 md:pb-44 border-b border-at-primary-blue ">
       <div className="flex gap-16 lg:gap-207 ">
         <div
           className="h-310 md:h-552 w-284 md:w-552 md:ml-60 bg-at-purple-100 rounded-310  md:rounded-552  mix-blend-hard-light 
@@ -23,13 +23,13 @@ const FirstSection = () => {
           </span>
           <span className="inline sm:hidden">.</span>
         </p>
-        <button className="w-132 md:w-195 mt-6 md:mt-12  h-50 sm:h-16 bg-at-gray-500 border-4 border-at-gray-200 rounded-12">
+        <button className="w-132 md:w-195 mt-6 md:mt-12  h-50 sm:h-16 bg-at-gray-500 border-4 border-at-gray-200 rounded-12 shadow-dark-blue-shadow">
           <span className="w-124 md:w-187  text-at-white-50 font-Poppins text-xs md:text-base font-medium text-center block ">
             Start Training
           </span>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

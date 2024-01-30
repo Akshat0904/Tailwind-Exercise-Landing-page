@@ -31,7 +31,7 @@ const Header = () => {
         </nav>
         <div className="md:flex font-Poppins text-base my-2.5 font-normal text-at-primary-blue gap-2 lg:gap-24 hidden">
           <button>Log in</button>
-          <button className="py-2.5 px-5 border rounded-lg bg-at-white-50  border-at-white-100 shadow-dropShadow  ">
+          <button className="py-2.5 px-5 border rounded-lg bg-at-white-50  border-at-white-100 shadow-white-bottom-shadow">
             Sign up
           </button>
         </div>
