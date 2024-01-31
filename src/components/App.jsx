@@ -4,6 +4,7 @@ import SecondSection from "./SecondSection.jsx";
 import ThirdSection from "./ThirdSection.jsx";
 import FourthSection from "./FourthSection.jsx";
 import FifthSection from "./FifthSection.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <FourthSection />
         <FifthSection />
       </main>
+      <Footer />
     </>
   );
 }

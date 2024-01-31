@@ -15,7 +15,7 @@ const FourthSection = () => {
             suscipit.
           </p>
         </div>
-        <div className="flex px-4 md:px-0 gap-4 md:gap-44 w-full justify-center items-center flex-wrap md:flex-nowrap">
+        <div className="flex px-4 md:px-0 gap-4 md:gap-44 justify-center items-center flex-wrap lg:flex-nowrap">
           <NumberData number="3000+" service="Learners" />
           <img
             className="size-44 md:size-66"
