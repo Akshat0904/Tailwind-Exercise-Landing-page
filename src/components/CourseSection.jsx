@@ -6,9 +6,9 @@ const CourseSection = ({ CARD_1, CARD_2, CARD_3, CARD_4, children }) => {
   return (
     <>
       <div className="flex justify-between ">
-        <p className="font-Poppins text-at-primary-blue text-[32px] leading-40 font-medium ">
+        <h2 className="font-Poppins text-at-primary-blue text-[32px] leading-40 font-medium ">
           {children}
-        </p>
+        </h2>
         <div className="hidden xl:flex gap-3">
           <img src={LEFT_ARROW} alt="Left Arrow" />
           <img src={RIGHT_ARROW} alt="Right Arrow" />

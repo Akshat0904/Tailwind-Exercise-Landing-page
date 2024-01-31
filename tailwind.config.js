@@ -18,10 +18,12 @@ export default {
         50: "50px",
         52: "52px",
         60: "60px",
+        66: "66px",
         68: "68px",
         69: "69px",
         75: "75px",
         77: "77px",
+        78: "78px",
         85: "85px",
         94: "94px",
         100: "100px",
@@ -37,6 +39,7 @@ export default {
         195: "195px",
         207: "207px",
         221: "221px",
+        225: "225px",
         250: "250px",
         253: "253px",
         266: "266px",
@@ -55,10 +58,13 @@ export default {
         552: "552px",
         582: "582px",
         584: "584px",
+        602: "602px",
         607: "607px",
         686: "686px",
         736: "736px",
         749: "749px",
+        792: "792px",
+        996: "996px",
         1024: "1024px",
         1160: "1160px",
         1440: "1440px",
@@ -70,6 +76,7 @@ export default {
         "at-gray-200": "#383A4D",
         "at-gray-300": "#79757F",
         "at-gray-500": "#252739",
+        "at-black-100": "#000",
         "at-white-100": "#E6E0EC",
         "at-white-50": "#FFF",
         "at-blue-100": "#56C6E7",
@@ -86,6 +93,7 @@ export default {
           "linear-gradient(270deg, #56C6E7 53.82%, #9747FF 74.83%, #0D154B 103.57%)",
         "h3-gradient":
           "linear-gradient(90deg, #9747FF 20.88%, #9747FF 34.85%, #56C6E7 58.8%)",
+        "h4-gradient": "linear-gradient(90deg, #8A6CF9 3.63%, #56C6E7 98.44%)",
       },
       rotate: {
         20: "20deg",
@@ -106,6 +114,8 @@ export default {
         " 0px 37px 80px 0px rgba(0, 0, 0, 0.10), 0px 146px 146px 0px rgba(0, 0, 0, 0.09), 0px 329px 198px 0px rgba(0, 0, 0, 0.05), 0px 585px 234px 0px rgba(0, 0, 0, 0.01), 0px 915px 256px 0px rgba(0, 0, 0, 0.00)",
       "white-card-shadow":
         "0px 14px 30px 0px rgba(0, 0, 0, 0.05), 0px 54px 54px 0px rgba(0, 0, 0, 0.04), 0px 122px 73px 0px rgba(0, 0, 0, 0.03), 0px 217px 87px 0px rgba(0, 0, 0, 0.01), 0px 339px 95px 0px rgba(0, 0, 0, 0.00)",
+      "white-section-shadow":
+        " 0px 0px 1px 0px rgba(0, 0, 0, 0.09), 0px 0px 1px 0px rgba(0, 0, 0, 0.05), 0px 0px 1px 0px rgba(0, 0, 0, 0.01), 0px 0px 1px 0px rgba(0, 0, 0, 0.00)",
     },
 
     borderRadius: {
@@ -115,9 +125,11 @@ export default {
       310: "310px",
       552: "552px",
     },
-    // borderWidth: {
-    //   10: "10px",
-    // },
+    borderWidth: {
+      DEFAULT: "1px",
+      10: "10px",
+      33: "0.33px",
+    },
     letterSpacing: {
       small: "-0.25px",
     },

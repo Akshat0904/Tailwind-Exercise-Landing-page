@@ -10,7 +10,7 @@ import CARD_8 from "/card-image-8.svg";
 
 const ThirdSection = () => {
   return (
-    <section className="max-w-1160 ml-4 lg:mx-auto">
+    <section className="max-w-1160 pb-102 sm:pb-250 ml-4 lg:mx-auto">
       <div className="flex flex-col gap-16 ">
         <div>
           <CourseSection
