@@ -9,7 +9,7 @@ const Card = ({ cardImage }) => {
     <div className="min-w-266 p-4 bg-at-white-50 border rounded-lg shadow-white-card-shadow text-at-primary-blue">
       <img src={cardImage} alt="Card-1" />
       <div className="flex justify-between my-7">
-        <div className="w-116 p-10 border rounded-lg bg-at-primary-white flex">
+        <div className="w-116 p-10 border rounded-lg bg-at-primary-white flex shadow-white-bottom-shadow">
           <img src={PURPLE_DOT} alt="Purple Dot" />
           <button className="font-Poppins text-sm font-medium ml-2">
             Web Design
