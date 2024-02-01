@@ -1,6 +1,6 @@
 const FirstSection = () => {
   return (
-    <section className="relative max-w-1440 xl:mx-auto pt-19 pb-7 md:pt-44 md:pb-44 border-b border-at-primary-blue ">
+    <section className="relative max-w-1440 xl:mx-auto pt-19 pb-7 md:pt-44 md:pb-44  ">
       <div className="flex gap-16 lg:gap-207 ">
         <div
           className="h-310 md:h-552 w-284 md:w-552 md:ml-60 bg-at-purple-100 rounded-310  md:rounded-552  mix-blend-hard-light 

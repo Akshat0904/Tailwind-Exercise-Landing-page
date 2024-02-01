@@ -4,7 +4,7 @@ import HAMBURGER from "/hamburger.svg";
 
 const Header = () => {
   return (
-    <header className="max-h-123 py-29 border-b border-at-primary-blue ">
+    <header className="max-h-123 py-29">
       <div className="flex max-h-16 mx-4 md:mx-5 lg:mx-100 2xl:mx-auto justify-between max-w-1440">
         <img src={LOGO} alt="Sinar Education Logo" />
         <nav className="my-5 max-w-584 hidden md:block">
